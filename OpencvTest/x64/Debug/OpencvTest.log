@@ -1,0 +1,11 @@
+﻿  threshold.cpp
+  sobel.cpp
+c:\users\aq\desktop\opencv320\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\aq\desktop\opencv320\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\aq\desktop\opencv320\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\aq\desktop\opencv320\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\aq\desktop\opencv320\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  canny.cpp
+  正在生成代码...
+  OpencvTest.vcxproj -> C:\Users\AQ\Desktop\OpencvTest\OpencvTest\x64\Debug\OpencvTest.exe
+  OpencvTest.vcxproj -> C:\Users\AQ\Desktop\OpencvTest\OpencvTest\x64\Debug\OpencvTest.pdb (Partial PDB)
