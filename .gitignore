@@ -1,3 +1,4 @@
 #Ignore submodules
-.vs/*
-x64/*
+<<<<<<< HEAD
+/.vs/*
+/x64/*
