@@ -15,13 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="canny.cpp">
+    <ClCompile Include="segmentation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="sobel.cpp">
+    <ClCompile Include="roi.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="threshold.cpp">
+    <ClCompile Include="harris.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shi_tomasi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="customHarris.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sift_demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="surf_demo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

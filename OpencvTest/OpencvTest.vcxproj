@@ -18,13 +18,8 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="canny.cpp" />
-    <ClCompile Include="sobel.cpp" />
-    <ClCompile Include="threshold.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2DDE7941-3584-495D-A661-981BB6905467}</ProjectGuid>
+    <ProjectGuid>{5FD82846-957C-4421-8C21-A5A5F4518159}</ProjectGuid>
     <RootNamespace>OpencvTest</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -68,7 +63,7 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\opencv320\opencv_64_debug.props" />
+    <Import Project="opencvsource320.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -115,6 +110,15 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="customHarris.cpp" />
+    <ClCompile Include="harris.cpp" />
+    <ClCompile Include="roi.cpp" />
+    <ClCompile Include="segmentation.cpp" />
+    <ClCompile Include="shi_tomasi.cpp" />
+    <ClCompile Include="sift_demo.cpp" />
+    <ClCompile Include="surf_demo.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
